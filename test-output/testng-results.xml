@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-24T21:24:29 IST" name="Default suite" finished-at="2023-04-24T21:25:09 IST" duration-ms="39612">
+    <groups>
+    </groups>
+    <test started-at="2023-04-24T21:24:29 IST" name="Default test" finished-at="2023-04-24T21:25:09 IST" duration-ms="39612">
+      <class name="scripts.Script1">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:scripts.Script1@19ae6bb]" started-at="2023-04-24T21:24:29 IST" name="createReport" finished-at="2023-04-24T21:24:29 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method)[pri:0, instance:scripts.Script1@19ae6bb]" started-at="2023-04-24T21:24:30 IST" name="openApp" finished-at="2023-04-24T21:25:04 IST" duration-ms="34182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scripts.Script1.testA()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testA()[pri:0, instance:scripts.Script1@19ae6bb]" started-at="2023-04-24T21:25:04 IST" name="testA" finished-at="2023-04-24T21:25:07 IST" duration-ms="2650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Script1@19ae6bb]" started-at="2023-04-24T21:25:07 IST" name="closeApp" finished-at="2023-04-24T21:25:09 IST" duration-ms="2553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=Script1.testA()[pri:0, instance:scripts.Script1@19ae6bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:scripts.Script1@19ae6bb]" started-at="2023-04-24T21:25:09 IST" name="publishReport" finished-at="2023-04-24T21:25:09 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- scripts.Script1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
