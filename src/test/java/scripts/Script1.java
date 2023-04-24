@@ -11,7 +11,7 @@ public class Script1 extends BaseTest{
 		
 		driver.getTitle();
 		String un = Utils.readXL("./data/input.xlsx", "LoginPage", 1, 0);
-		System.out.println(un);
+		System.out.println("username"+un);
 	}
 
 }
